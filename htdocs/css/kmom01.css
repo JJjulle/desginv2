@@ -158,3 +158,19 @@ ul {
 .wrap-sidebar.block {
     margin-bottom: 48px;
 }
+
+.next {
+    float: right;
+}
+
+.previous {
+    float: left;
+}
+
+.breadcrumb-list li {
+    display: inline;
+}
+
+.breadcrumb-list li::after {
+    content: " >> "
+}
