@@ -13,9 +13,8 @@ views:
 Min me-sida i kursen design
 =========================
 
+[FIGURE src="img/meBig.png" class="left" caption="Bild på mig"]
 Detta är en kort presentation om mig!
-
-[FIGURE src="img/meBig.png" class="right" caption="Bild på mig"]
 
 Jag kommer från Ronneby och är 22 år, har gått på BTH sedan 2016 och studerat/stuedrar Indek och nu även webbprogg.
 
