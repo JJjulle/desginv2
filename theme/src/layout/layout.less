@@ -1,0 +1,270 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+ @widthByline: 250px;
+ @heightByline: 150px;
+ @border: 1px solid white;
+/**
+ * General layout
+ */
+ // .rm-desktop ul {
+ //     display: none;
+ // }
+ //
+ // /* Hide responsive/mobile menu, leave this to kmom02 */
+ // .rm-navbar-max {
+ //     display: none;
+ // }
+
+.rm-desktop {
+    color: white;
+}
+
+.rm-small {
+    color: white;
+}
+
+ .author-byline {
+     width: @widthByline;
+     height: @heightByline;
+     border: @border;
+     margin-bottom: 46px;
+     padding: 1em;
+     clear: both;
+     margin-left: 10px;
+     max-width: 50%;
+     max-height: 50%;
+
+     figure {
+         float: left;
+         margin: 5px;
+         padding-right: 5px;
+     }
+ }
+
+ .inner-wrap {
+     margin-right: auto;
+     margin-left: auto;
+     max-width: 1100px;
+     background-color: grey;
+     overflow: auto;
+
+    .inner-wrap-flash {
+        overflow: hidden;
+    }
+
+ }
+
+ .inner-wrap-header {
+     overflow: hidden;
+ }
+
+ .region-flash {
+     border-top: @border;
+ }
+
+
+
+ // .wrap-all {
+ //     margin: 0 auto;
+ //     background: grey;
+ //     max-width: 1200px;
+ //     overflow: auto;
+ // }
+
+ .outer-wrap {
+     .outer-wrap-header {
+         border: @border;
+     }
+
+}
+
+
+ .region-flash img {
+     width: 98%;
+     padding: 10px;
+
+
+ }
+
+ .inner-wrap-flash {
+     overflow: hidden;
+ }
+
+ .site-logo {
+     display: none;
+ }
+
+
+ .rm-navbar {
+     li {
+     display: inline;
+     border: @border;
+     background-color: black;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    margin-left: 10px;
+ }
+
+
+ .right {
+ float: right;
+ margin-left: 8px;
+}
+
+.left {
+    float: left;
+    margin-right: 8px;
+}
+
+
+ .outer-wrap-footer {
+     padding-top: 24px;
+     padding-bottom: 48px;
+     box-sizing: border-box;
+     clear: both;
+ }
+ .has-sidebar-left {
+     float: left;
+     .dis();
+    }
+
+  .has-sidebar-right {
+        float: left;
+        .dis();
+    }
+
+ .region-sidebar-left {
+     float: left;
+     margin-right: 8px;
+     width: 25%;
+     margin-left: 8px;
+ }
+
+ .region-sidebar-right {
+     float: right;
+     margin-left: 8px;
+     width: 25%;
+     margin-right:8px;
+ }
+
+ .dis() {
+     display: inline;
+     width: 60.625%;
+     margin-left: .52083333%;
+     margin-right: .52083333%;
+
+ }
+
+ .region-main {
+     margin: 10px;
+     float: left;
+     border: @border;
+     .has-sidebar-left {
+         float: left;
+         .dis();
+        }
+    .has-sidebar-right {
+        float: left;
+        .dis();
+    }
+
+
+    h1 {
+        text-align: center;
+    }
+
+    .article {
+        padding: 5px;
+    }
+
+}
+
+
+ .wrap-sidebar.block {
+     margin-bottom: 48px;
+ }
+
+ .next {
+     float: right;
+ }
+
+ .previous {
+     float: left;
+ }
+
+ .breadcrumb-list {
+     li {
+     display: inline;
+    }
+
+    li::after {
+        content: " >> "
+    }
+}
+
+
+.outer-wrap-footer {
+    background-color: grey;
+}
+
+.outer-wrap-header {
+    max-width: 100%;
+}
+
+.inner-wrap-header {
+    max-width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: green;
+
+}
+
+.region-header {
+    display: inline;
+
+}
+
+
+.region-header-col-1,
+.region-header-col-2 {
+    width: 20%;
+    float: left;
+}
+
+.region-header-col-2 {
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+
+.inner-wrap-footer {
+    max-width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+
+}
+.region-footer {
+    text-align: center;
+    padding-top: 5px;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+}
+
+.footer-column {
+    width: 33%;
+    float: left;
+    border: @border;
+    box-sizing: border-box;
+}
